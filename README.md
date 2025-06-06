@@ -50,6 +50,10 @@ cd AudioX
 conda create -n AudioX python=3.8.20
 conda activate AudioX
 pip install git+https://github.com/ZeyueT/AudioX.git
+# or install from the local source
+python setup.py install
+# alternatively install just the dependencies
+pip install -r requirements.txt
 conda install -c conda-forge ffmpeg libsndfile
 
 ```
