@@ -9,6 +9,7 @@ This package provides a simple ComfyUI node for running the AudioX model.
    git clone https://github.com/ZeyueT/AudioX.git
    ```
 2. Copy the `audiox_comfyui` folder into ComfyUI's `custom_nodes` directory or install the repository with pip so that the package is available in Python's path.
+3. Alternatively, clone the entire AudioX repository directly under ComfyUI's `custom_nodes` directory; the nodes will be discovered automatically.
 
 ## Usage
 
