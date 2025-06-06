@@ -47,12 +47,13 @@ Audio and music generation have emerged as crucial tasks in many applications, y
 ```bash
 git clone https://github.com/ZeyueT/AudioX.git
 cd AudioX
-conda create -n AudioX python=3.8.20
+conda create -n AudioX python=3.8
 conda activate AudioX
 pip install git+https://github.com/ZeyueT/AudioX.git
 conda install -c conda-forge ffmpeg libsndfile
 
 ```
+AudioX supports Python 3.8 and 3.10.
 
 ## 🪄 Pretrained Checkpoints
 
